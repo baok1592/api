@@ -1,6 +1,6 @@
 {
     "name": "ruhua/api",
-    "description": "ruhua-api",
+    "description": "ruhuaapi",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -25,10 +25,7 @@
     "require": {
         "php": ">=7.0.0",
         "topthink/framework": "^6.0.0",
-        "topthink/think-orm": "^2.0",
-        "ruhua/framework":"v1.0",
-        "topthink/think-throttle": "dev-master"
-
+        "topthink/think-orm": "^2.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
