@@ -32,7 +32,30 @@ Route::group('user', function () {
         Route::post('edit_phone', 'User/editMobile'); //单纯的绑定手机号
         Route::post('verify_yzm', 'User/verifyYzm'); //单纯的绑定手机号
     });
+    Route::group('admin', function () {
+        Route::get('get_all_user', 'cms.UserManage/getAllUser');//获取所有用户信息
+    });
 });
-Route::group('pay',function (){
-    Route::get('wxpay','Pay/WxPay');//微信支付
+
+//公共
+Route::group('index', function () {
+
+    //用户
+    Route::group('user', function () {
+        Route::get('sys_config', 'common.common/getSysConfig');//前端获取部分配置信息
+    });
+
+    //管理员
+    Route::group('admin', function () {
+        Route::post('login', 'cms.Admin/login');//管理员登录
+        Route::get('check_login', 'cms.Admin/checkLogin');//管理员检查是否登录
+    });
+});
+//管理员
+Route::group('admin', function () {
+    Route::post('edit_psw', 'cms.Admin/editPSW');//管理员修改密码
+    Route::post('edit_admin', 'cms.AdminManage/editAdmin');//更新管理员
+    Route::post('add_admin', 'cms.AdminManage/addAdmin');//添加管理员
+    Route::get('get_all_admin', 'cms.AdminManage/getAdminAll');//获取所有管理员
+    Route::put('del_admin', 'cms.AdminManage/deleteAdmin');//删除管理员
 });

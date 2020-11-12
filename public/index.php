@@ -22,6 +22,7 @@ define('VAE_VERSION','1.0.2');
 // 定义vaeThink项目目录
 define('VAE_ROOT', __DIR__ . '/../');
 define('ROOT', __DIR__);
+define('uploads',__DIR__."uploads/");
 // 执行HTTP应用并响应
 $http = (new App())->http;
 

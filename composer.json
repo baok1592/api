@@ -26,8 +26,10 @@
         "php": ">=7.0.0",
         "topthink/framework": "^6.0.0",
         "topthink/think-orm": "^2.0",
-        "ruhua/framework":"^1.0",
-        "topthink/think-throttle": "dev-master"
+        "ruhua/framework":"v1.1",
+        "topthink/think-throttle": "dev-master",
+        "firebase/php-jwt":"5.2.0",
+        "aliyuncs/oss-sdk-php":"v2.4.1"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
