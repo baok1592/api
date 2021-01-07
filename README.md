@@ -23,7 +23,7 @@
 
 #### 扫码演示
 ![image](https://gitee.com/qianyu_wyc/ruhua/blob/master/xcx.jpg)
-![image](https://gitee.com/qianyu_wyc/ruhua/blob/master/h5.png)
+![image](http://demo.ruhuashop.com/h5.png)
 
 #### 后台演示
 http://api.demo.ruhuashop.com/cms/	账号：admin	密码123456
