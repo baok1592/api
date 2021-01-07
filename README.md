@@ -1,4 +1,4 @@
-﻿# ruhua
+# ruhua
 
 #### 介绍
 如花商城是基于Thinkphp6+uniapp+element开发的一套新零售移动电商系统，采用三端分离。
@@ -22,13 +22,14 @@
 3.  访问：域名/h5 进入前端 -> 未打包，自行下载：https://github.com/baok1592/ruhua_vue
 
 #### 扫码演示
-![image](https://gitee.com/qianyu_wyc/ruhua/blob/master/xcx.jpg)
+![image](http://demo.ruhuashop.com/xcx.jpg)
 ![image](http://demo.ruhuashop.com/h5.png)
 
 #### 后台演示
-http://api.demo.ruhuashop.com/cms/	账号：admin	密码123456
+http://demo.ruhuashop.com/cms/	账号：admin	密码123456
 
-
+#### 多商户版本
+https://github.com/baok1592/ruhua_shops
 #### 开源版使用须知
 1.  允许用于个人学习、毕业设计、教学案例、公益事业
 2.  如果商用必须保留版权信息，请自觉遵守。开源版不适合商用，商用请购买商业版
